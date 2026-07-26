@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="de">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Augenblick & Plunderteilchen</title>
     <style>
         body {
@@ -13,33 +11,76 @@
             padding: 0;
             text-align: center;
         }
-        .header {
+        img.header {
             width: 100%;
-            max-height: 400px;
+            max-height: 420px;
             object-fit: cover;
         }
         h1 {
             font-size: 48px;
-            margin: 40px 0 20px;
+            margin: 20px 0;
         }
         .content {
             max-width: 700px;
             margin: 40px auto;
             padding: 0 20px;
         }
-        p {
-            font-size: 18px;
-            line-height: 1.6;
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+        .box {
+            background-color: #e8d9c0;
+            padding: 25px;
+            border-radius: 15px;
+            flex: 1;
+            min-width: 280px;
+            max-width: 420px;
+        }
+        .ruhe {
+            background-color: #d4e4d4;
+        }
+        .schatzkästchen {
+            background-color: #e6d4b8;
+            margin: 40px auto;
+            max-width: 700px;
+            padding: 35px;
+            border-radius: 15px;
         }
     </style>
 </head>
 <body>
-    <img src="header.jpg" alt="Header Bild" class="header">
-
+    <img src="header.jpg" class="header" alt="Augenblick & Plunderteilchen">
+    
     <h1>Augenblick & Plunderteilchen</h1>
     
     <div class="content">
         <p>Manchmal braucht es nur einen kleinen Augenblick – mit einer Tasse Kaffee, einem Plunderteilchen und dem Gefühl, dass das Leben gerade ein bisschen innehält.</p>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <p>„Manchmal reicht ein tiefer Atemzug und ein sanftes Lächeln zu sich selbst, um den Tag ein Stückchen heller zu machen.“</p>
+            <p>Für dich</p>
+        </div>
+        
+        <div class="box ruhe">
+            <h3>Ein kleiner Ruhe-Moment</h3>
+            <p>Setz dich bequem hin, atme dreimal langsam ein und aus.</p>
+            <p>Spüre deine Füße auf dem Boden. Spüre, wie dein Atem kommt und geht.</p>
+            <p>Du bist genau richtig, so wie du bist. Hier darfst du einfach sein.</p>
+        </div>
+    </div>
+
+    <div class="schatzkästchen">
+        <h2>Schatzkästchen</h2>
+        <p><strong>Augenblicke und mehr</strong></p>
+        <p>„Heute Morgen schien die Sonne auf meinen rechten Arm, während ich am Schreibtisch saß. Es fühlte sich warm und lebendig an – ein kleiner, stiller Glücksmoment.“</p>
+        <p>— Nabi</p>
     </div>
 
     <div class="content">
